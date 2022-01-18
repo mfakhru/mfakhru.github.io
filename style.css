@@ -47,7 +47,7 @@ section {
 .about,
 .projects,
 .skills,
-.teams,
+.certification,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
@@ -314,18 +314,18 @@ section .title::after {
 /* projects section styling */
 
 .projects,
-.teams {
+.certification {
     color: #fff;
     background: #111;
 }
 
 .projects .title::before,
-.teams .title::before {
+.certification .title::before {
     background: #fff;
 }
 
 .projects .title::after,
-.teams .title::after {
+.certification .title::after {
     background: #111;
     content: "what i do";
 }
@@ -467,13 +467,13 @@ section .title::after {
 }
 
 
-/* teams section styling */
+/* certification section styling */
 
-.teams .title::after {
-    content: "who with me";
+.certification .title::after {
+    content: "who i follow";
 }
 
-.teams .carousel .card {
+.certification .carousel .card {
     background: #222;
     border-radius: 10px;
     padding: 25px 35px;
@@ -482,11 +482,11 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover {
+.certification .carousel .card:hover {
     background: #97db4f;
 }
 
-.teams .carousel .card .box {
+.certification .carousel .card .box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -494,17 +494,17 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover .box {
+.certification .carousel .card:hover .box {
     transform: scale(1.05);
 }
 
-.teams .carousel .card .text {
+.certification .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.teams .carousel .card img {
+.certification .carousel .card img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -513,7 +513,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card:hover img {
+.certification .carousel .card:hover img {
     border-color: #fff;
 }
 
