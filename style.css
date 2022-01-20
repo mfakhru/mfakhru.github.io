@@ -357,6 +357,7 @@ section .title::after {
 
 .projects .serv-content .card i {
     font-size: 50px;
+    height: 40px;
     color: #97db4f;
     transition: color 0.3s ease;
 }
@@ -574,11 +575,12 @@ section .title::after {
 }
 
 .contact .contact-content .row .info {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .contact .contact-content .row i {
-    font-size: 25px;
+    font-size: 28px;
+    width: 28px;
     color: #97db4f;
 }
 
